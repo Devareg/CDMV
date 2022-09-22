@@ -1,0 +1,170 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Prompt', sans-serif */
+
+body{
+    background-color: #f3f3f3 !important;
+
+}
+
+header a{
+    font-family: 'Prompt', sans-serif !important;
+    font-weight: 700 !important;
+}
+
+main h1{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+main button{
+    font-family: 'Prompt', sans-serif !important;
+
+
+}
+.carousel h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #E56E00;
+    font-weight: 700;
+
+}
+
+.plat{
+        animation: transform cubic-bezier(0, 0, 0, 0.99) .10s;
+    }
+    
+    .plat:hover {
+        transform: scale(1.1) rotate(10deg);
+    }
+
+.btn-plat {
+    background-color: #E56E00 !important;
+    color: white !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-weight: 700 !important;
+
+}
+.section-livraison h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    justify-content: center;
+
+}
+
+.livreur {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(290px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.bg-parteners{
+    background-color: #FFFFFF;
+    
+}
+
+
+.bg-formulaire{
+    background-color: #E56E00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    
+}
+
+.bg-formulaire h4{
+    font-weight: 900;
+}
+
+
+.bg-formulaire  button{
+    font-weight: 700;
+}
+
+
+
+.localisation h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+
+
+}
+
+
+
+/* -------------AVIS--------- */
+
+.bg-avis{
+    background-color: #E56E00;
+}
+
+
+
+.bg-avis h4{
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+.soc-medi{
+    background-color: #000000 !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: auto !important;
+ 
+}
+
+.icons{
+    margin: 40px !important;
+}
+
+
+.footer{
+background-color: #FFFFFF !important;
+
+
+
+
+}
+
+
+
+
+
+.avis-client{
+	background-color: #fff;
+}
+.container{
+	background-color: #fff;
+	width: 600px; 
+}
+.card{
+	width: 250px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	border-radius: 8px;
+}
+.maintxt{
+	color: #1f1f1f;
+	font-weight: 500;
+	font-size: 14.5px;
+}
+.name{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.para{
+	color: #8c8c8c;
+	font-size: 12px;
+	position: relative;
+	bottom: 3px;
+}

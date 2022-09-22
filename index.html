@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDVM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;700&family=Prompt:wght@100;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- -------NAVBAR------- -->
+  <div class="container" style="background-color: #f3f3f3;">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between mb-4">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 ">
+        <img src="imgs/logo.png" alt="">
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-dark">EVENEMENT</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">SERVICES</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">JOBS</a></li>
+      </ul>
+
+      <div class=" text-end">
+        <form class="d-flex" role="search">
+          <input class="form-control me-4" type="search" placeholder="Recherche" aria-label="Search">
+          <button class="btn btn-success rounded-5 " type="submit">connexion</button>
+        </form>
+      </div>
+    </header>
+  </div>
+
+  <!-- -------HERO-------- -->
+  <main>
+    <div class="b-example-divider"></div>
+
+    <div class="container col-xxl-8 px-4 " style="background-color: #f3f3f3;">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="imgs/sauce_boeuf.png" class="d-block mx-lg-auto plat img-fluid" alt="plat de sauce" width="700"
+            height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-1 fw-bold lh-1 mb-3">Votre santé est
+            précieuse, et
+            nous en prenons
+            compte.</h1>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start ">
+            <button type="button" class="btn btn-success rounded-5 btn-lg px-4 me-md-2">Nos menus</button>
+            <button type="button" class="btn btn-light btn-lg rounded-5 shadow-sm px-4">Reservations</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- ------------------------CAROUSELS--------------------------- -->
+
+
+  <div class="mt-5" >
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 mx-auto justify-content-center container"
+      data-bs-ride="true" style="background-color: #f3f3f3;">
+
+      <h1>NOS MENUS</h1>
+      <div class="mt-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mt-5">
+          <div class="carousel-item active">
+            <img src="imgs/slides1.png" class="d-md-flex mx-auto w-75 min-vh-75 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/slide2.png" class="d-md-flex mx-auto w-75" alt="...">
+          </div>
+          <div class="carousel-item">
+
+            <div class="">
+              <div class="texte-center">
+                <img src="imgs/slides1.png" class="d-md-flex mx-auto w-75" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- -----------------BOUTON POUR ACCEDER AUX RESTES DES PLATS------------------------- -->
+
+  <div class="d-grid gap-2 d-md-flex justify-content-center mt-5 ">
+    <button type="button" class="btn btn-plat  mt-5 rounded-2 btn-lg px-4 me-md-2">Cliquer ici pour acceder à tout nos
+      plats</button>
+  </div>
+
+  <!-- -----------------------SECTION LIVRAISON-------------------------- -->
+  <div class="section-livraison pt-5 mt-5">
+    <div class="livreur d-grid gap-2 d-md-flex justify-content-center">
+      <img src="imgs/livreur.png" alt="">
+      <h2>Livraisons partout à Lomé.</h2>
+    </div>
+  </div>
+
+  <!-- -----------------------SECTION PARTENAIRES-------------------------- -->
+  <div class="bg-parteners">
+    <div class="container-fluid mt-5">
+      <div class="row row-cols-3  mx-auto    py-5   justify-content-center text-center    row-cols-sm-6 row-cols-md-8">
+        <div class="col"> <img src="imgs/asky.webp" alt=""> </div>
+        <div class="col"> <img src="imgs/Mcdonalds.png" alt=""> </div>
+        <div class="col"> <img src="imgs/google_entrepreneurs.webp" alt=""> </div>
+        <div class="col"> <img src="imgs/gozem.png" alt=""> </div>
+        <div class="col"> <img src="imgs/Moov_Africa_logo.png" alt=""> </div>
+        <div class="col"> <img src="imgs/made-logo 1.png" alt=""> </div>
+      </div>
+    </div>
+  </div>
+  <!-- --------------------------FORMULAIRE------------------------ -->
+  <div class=" bg-formulaire  ">
+    <div class="col-md-7 col-lg-6 mx-auto   ">
+      <form class="needs-validation " novalidate="">
+        <h4 class="mb-3 text-light pt-5">Nous contacter</h4>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label text-light">Nom</label>
+            <input type="text" class="form-control rounded-0" id="firstName" placeholder="" value="" required="">
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label text-light">Prénoms</label>
+            <input type="text" class="form-control rounded-0" id="lastName" placeholder="" value="" required="">
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label text-light">Adresse</label>
+            <input type="text" class="form-control rounded-0" id="address" placeholder="Rue" required="">
+          </div>
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label text-light">Quartier</label>
+            <input type="text" class="form-control rounded-0" id="firstName" placeholder="" value="" required="">
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label text-light">Téléphone</label>
+            <input type="text" class="form-control rounded-0" id="lastName" placeholder="" value="" required="">
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label text-light">Email</label>
+            <input type="email" class="form-control rounded-0" id="email" placeholder="Ex:gerrrra10@example.com">
+          </div>
+          <div class="col-12">
+            <label for="address2" class="form-label text-light">Questions/Commentaires</label>
+            <input type="text" class="form-control rounded-0" id="address2" placeholder="Message">
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start  ">
+            <button type="button" class="btn mb-5 btn-light rounded-0 btn-lg px-4 me-md-2">Soumettre</button>
+          </div>
+        </div>
+    </div>
+    </form>
+  </div>
+  <!-- -----------------CARTE MAP-------------------- -->
+  <div class="col-md-7 col-lg-6 mx-auto   " >
+    <div class="container localisation mt-5  mb-5" style="background-color: #f3f3f3;">
+      <h4 class="mb-5 ">LOCALISATION</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31731.46171236101!2d1.1894811181312412!3d6.206514062443082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scoins%20des%20vieilles%20marmites%20lom%C3%A9!5e0!3m2!1sfr!2stg!4v1660612420210!5m2!1sfr!2stg"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!-- ----------------SECTION AVIS CLIENTS----------------------- -->
+  <div class="col-md-7 col-lg-6 mx-auto">
+    <div class="container " style="background-color: #f3f3f3;">
+      <h4 class="mb-5 ">AVIS CLIENTS</h4>
+    </div>
+  </div>
+  <div class="container avis-client mb-5 mt-5" style="background-color: #f3f3f3;">
+    <div class="d-flex justify-content-center py-3">
+
+      <div class="mr-2">
+        <div class="card">
+          <div class="px-2 py-2">
+            <span class="maintxt">""Leurs bonne gestion de la clientèle"
+              plats super bon dans un confort bien aménagé avec une condition assez confortable pour les client"</span>
+            <div class="d-flex pt-3">
+              <div><img src="imgs/av1.webp" width="50" class="rounded-circle"></div>
+              <div class="ml-2">
+                <span class="name">Blandine ESSI</span>
+                <p class="para">Avédji</p>
+                <p class="para text-right">25 Décembre 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card mt-3">
+          <div class="px-2 py-2">
+            <span class="maintxt">"
+              Rapidité exclusive
+              " des explosions de saveurs"
+              la Restauration rapide comme on l’aime."</span>
+            <div class="d-flex pt-3">
+              <div><img src="imgs/av2.webp" width="50" class="rounded-circle"></div>
+              <div class="ml-2">
+                <span class="name">Aimé CESARE</span>
+                <p class="para">Lomégan</p>
+                <p class="para text-right">05 Juin 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ml-2">
+
+        <div class="card">
+          <div class="px-2 py-2">
+            <span class="maintxt">"Service adorable. <br>Accueil très impressionnant. "</span>
+            <div class="d-flex pt-3">
+              <div><img src="imgs/av3.webp" width="50" class="rounded-circle"></div>
+              <div class="ml-2">
+                <span class="name">Amah KARIM</span>
+                <p class="para">Limousine</p>
+                <p class="para text-right">10 Mars 2022</p>
+                
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <div class="card mt-3">
+          <div class="px-2 py-2">
+            <span class="maintxt">"Excellentissime
+              Le cadre magique, le personnel attentionné, la cuisine savoureuse, un plaisir des yeux autant que des
+              papilles font du coin des vieille marmites LE restaurant incontournable de Lomé. Merci à toute
+              l'équipe."</span>
+            <div class="d-flex pt-3">
+              <div><img src="imgs/av4.webp" width="50" class="rounded-circle"></div>
+              <div class="ml-2">
+                <span class="name">Daniel AKAKPO</span>
+                <p class="para">Djidjolé</p>
+                <p class="para text-right ">08 Janvier 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+    <div class="col-md-7 col-lg-6 mt-2  mx-auto " >
+      <div class="container" style="background-color: #f3f3f3;">
+        <textarea class="rounded-3 " name="text" id="" cols="64" rows="2" placeholder="Rédiger mon avis"></textarea>
+      </div>
+      <div class="col-md-7">
+        <div class="btn-dark  mx-auto btn rounded-1">Envoyer</div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- ------------------------Section reseaux sociaux------------------------------- -->
+  <div class="soc-medi">
+    <div>
+      <a href="#">
+        <img class="icons" src="imgs/instagram.png" alt="" width="40" height="40">
+      </a>
+    </div>
+    <div>
+
+      <a href="#">
+        <img class="icons" src="imgs/Facebook.png" alt="" width="40" height="40">
+      </a>
+    </div>
+    <div>
+
+      <a href="#">
+        <img class="icons" src="imgs/WhatsApp.png" alt="" width="40" height="40">
+      </a>
+    </div>
+  </div>
+  
+  <!-- ---------------------------------footer-------------------------------------------->
+  <footer class="row row-cols-1 footer mx-auto row-cols-sm-2 row-cols-md-5 py-2" style="background-color: #f3f3f3;">
+    <div class="col mb-3">
+
+      <!-- <p class="text-muted">© 2022</p> -->
+      <img src="imgs/cdvm_logo_bas.webp" alt="" >
+    </div>
+
+    <div class="col mt-2 mb-3" >
+      <div class="d-flex flex-column gap-2">
+        <h4 class="fw-semibold text-dark mb-0">BESOIN D'AIDE?</h4>
+        <p class="text-muted">Tel: +228 91 38 65 10 <br>
+          Email: coindesvielles@gmail.com <br>
+          Djidjolé, Rue 124, Le Sauveur <br> Lomé-Togo.</p>
+      </div>
+
+    </div>
+
+    <div class="col mb-3">
+      <form>
+        <h3 class="h4 mt-2 mb-3 fw-normal">Restez connecter</h3>
+
+        <div class="form-floating mb-2">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email</label>
+        </div>
+        <button class="w-100 btn btn-lg btn-dark" type="submit">S'abonner</button>
+      </form>
+    </div>
+
+    <div class="col mb-3 mt-2">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">A propos </a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">2022 © copyright </a></li>
+
+
+
+
+
+      </ul>
+    </div>
+
+    <div class="col mb-2 mt-2  ">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Devareg | Lomé - Togo </a></li>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
